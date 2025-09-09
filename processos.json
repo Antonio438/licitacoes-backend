@@ -1,0 +1,391 @@
+{
+  "processes": [
+    {
+      "processNumber": "1",
+      "object": "Gestão e administração de vale transporte",
+      "value": 500000,
+      "deadline": "2025-08-31",
+      "priority": "Média",
+      "type": "Serviço",
+      "modality": "Pregão",
+      "fase": "Contratado",
+      "description": "oi",
+      "contractDate": "2025-01-24",
+      "purchasedValue": "1500",
+      "location": {
+        "sector": "Secretária/Presidente",
+        "responsible": ""
+      },
+      "planId": "38",
+      "id": 1755952827698,
+      "attachments": [
+        {
+          "filename": "1755955678181-1 (2).pdf",
+          "originalname": "1 (2).pdf",
+          "path": "C:\\Users\\HP\\Desktop\\licitacoes-app\\uploads\\1755955678181-1 (2).pdf"
+        }
+      ],
+      "locationHistory": [
+        {
+          "sector": "Secretária/Presidente",
+          "responsible": "",
+          "startDate": "2025-08-23T21:25:06.525Z",
+          "endDate": null
+        }
+      ],
+      "history": [
+        {
+          "fase": "Planejamento",
+          "startDate": "2025-08-23T21:25:27.748Z",
+          "endDate": "2025-08-24T10:39:10.500Z"
+        },
+        {
+          "fase": "Contratado",
+          "startDate": "2025-08-24T10:39:10.500Z",
+          "endDate": null
+        }
+      ],
+      "alertInfo": null
+    },
+    {
+      "processNumber": "3",
+      "object": "Serviço de software de tramitação eletrônica de processos",
+      "value": null,
+      "deadline": "2025-01-31",
+      "priority": "Média",
+      "type": "Serviço",
+      "modality": "Dispensa",
+      "fase": "Em Licitação",
+      "description": "",
+      "contractDate": "2025-08-23",
+      "purchasedValue": "4000",
+      "location": {
+        "sector": "Secretária/Presidente",
+        "responsible": ""
+      },
+      "planId": "2",
+      "id": 1755953580722,
+      "attachments": [],
+      "history": [
+        {
+          "fase": "Em Licitação",
+          "startDate": "2025-08-23T16:47:57.936Z",
+          "endDate": null
+        }
+      ],
+      "locationHistory": [
+        {
+          "sector": "Secretária/Presidente",
+          "responsible": "",
+          "startDate": "2025-08-24T13:37:00.294Z",
+          "endDate": null
+        }
+      ],
+      "isImportant": false,
+      "alertInfo": null
+    },
+    {
+      "processNumber": "88",
+      "object": "Serviços terceirizados de vigilância desarmada",
+      "value": null,
+      "deadline": "2025-01-31",
+      "priority": "Alta",
+      "type": "Serviço",
+      "modality": "Inexigibilidade",
+      "fase": "Contratado",
+      "description": "",
+      "contractDate": "2025-08-27",
+      "purchasedValue": "9000",
+      "location": {
+        "sector": "Comissão de Contratação",
+        "responsible": ""
+      },
+      "planId": "3",
+      "id": 1755955837958,
+      "attachments": []
+    },
+    {
+      "processNumber": "44",
+      "object": "Contratação de jornal impresso para publicação de atos oficiais",
+      "value": 11000,
+      "deadline": "2025-03-31",
+      "priority": "Alta",
+      "type": "Serviço",
+      "modality": "A definir",
+      "fase": "Contratado",
+      "description": "",
+      "contractDate": "2025-08-23",
+      "purchasedValue": "800",
+      "location": {
+        "sector": "Comissão de Contratação",
+        "responsible": "sandra"
+      },
+      "planId": "14",
+      "id": 1755966763043,
+      "attachments": [],
+      "creationDate": "2025-08-23T16:32:43.043Z",
+      "history": [
+        {
+          "fase": "Planejamento",
+          "startDate": "2025-08-23T16:32:43.043Z",
+          "endDate": "2025-08-23T16:32:52.642Z"
+        },
+        {
+          "fase": "Em Licitação",
+          "startDate": "2025-08-23T16:32:52.642Z",
+          "endDate": "2025-08-23T16:34:41.262Z"
+        },
+        {
+          "fase": "Contratado",
+          "startDate": "2025-08-23T16:34:41.262Z",
+          "endDate": null
+        }
+      ],
+      "locationHistory": [
+        {
+          "sector": "Secretária/Presidente",
+          "responsible": "",
+          "startDate": "2025-08-23T16:32:43.043Z",
+          "endDate": "2025-08-23T16:34:17.203Z"
+        },
+        {
+          "sector": "Comissão de Contratação",
+          "responsible": "sandra",
+          "startDate": "2025-08-23T16:34:17.203Z",
+          "endDate": null
+        }
+      ],
+      "isImportant": false,
+      "alertInfo": null
+    },
+    {
+      "processNumber": "48",
+      "object": "Serviço de carro de som para publicidade",
+      "value": 18000,
+      "deadline": "2025-09-30",
+      "priority": "Média",
+      "type": "Serviço",
+      "modality": "Pregão",
+      "fase": "Em Licitação",
+      "description": "",
+      "contractDate": "",
+      "purchasedValue": "",
+      "location": {
+        "sector": "Secretária/Presidente",
+        "responsible": ""
+      },
+      "planId": "42",
+      "id": 1755975466225,
+      "attachments": [],
+      "creationDate": "2025-08-23T18:57:46.225Z",
+      "history": [
+        {
+          "fase": "Planejamento",
+          "startDate": "2025-08-23T18:57:46.225Z",
+          "endDate": "2025-08-23T19:00:22.449Z"
+        },
+        {
+          "fase": "Em Licitação",
+          "startDate": "2025-08-23T19:00:22.449Z",
+          "endDate": null
+        }
+      ],
+      "locationHistory": [
+        {
+          "sector": "Compras",
+          "responsible": "",
+          "startDate": "2025-08-23T18:57:46.225Z",
+          "endDate": "2025-08-23T18:58:27.981Z"
+        },
+        {
+          "sector": "Secretária/Presidente",
+          "responsible": "",
+          "startDate": "2025-08-23T18:58:27.981Z",
+          "endDate": null
+        }
+      ],
+      "isImportant": false,
+      "alertInfo": null
+    },
+    {
+      "processNumber": "4",
+      "object": "Aquisição de Iphone 17 pro max para vereadores e comissionados",
+      "value": 8000,
+      "deadline": "2025-08-26",
+      "priority": "Alta",
+      "type": "Compra",
+      "modality": "Pregão",
+      "fase": "Planejamento",
+      "description": "prioridade alta ",
+      "contractDate": "",
+      "purchasedValue": "",
+      "location": {
+        "sector": "Agente de Contratação",
+        "responsible": "Tássia"
+      },
+      "id": 1756042044329,
+      "attachments": [],
+      "creationDate": "2025-08-24T13:27:24.329Z",
+      "history": [
+        {
+          "fase": "Planejamento",
+          "startDate": "2025-08-24T13:27:24.329Z",
+          "endDate": null
+        }
+      ],
+      "locationHistory": [
+        {
+          "sector": "Agente de Contratação",
+          "responsible": "",
+          "startDate": "2025-08-24T13:27:24.329Z",
+          "endDate": "2025-08-24T13:30:52.792Z"
+        },
+        {
+          "sector": "Agente de Contratação",
+          "responsible": "Tássia",
+          "startDate": "2025-08-24T13:30:52.792Z",
+          "endDate": null
+        }
+      ],
+      "isImportant": false,
+      "alertInfo": null
+    },
+    {
+      "processNumber": "5",
+      "object": "Viagem dos veradores para Disney ",
+      "value": 500000,
+      "deadline": "2025-08-30",
+      "priority": "Alta",
+      "type": "Compra",
+      "modality": "Inexigibilidade",
+      "fase": "Planejamento",
+      "description": "alerta avisar ttttt",
+      "contractDate": "",
+      "purchasedValue": "",
+      "location": {
+        "sector": "Secretária/Presidente",
+        "responsible": ""
+      },
+      "id": 1756042145805,
+      "attachments": [],
+      "creationDate": "2025-08-24T13:29:05.805Z",
+      "history": [
+        {
+          "fase": "Não Iniciado",
+          "startDate": "2025-08-24T13:29:05.805Z",
+          "endDate": "2025-08-24T13:40:08.812Z"
+        },
+        {
+          "fase": "Planejamento",
+          "startDate": "2025-08-24T13:40:08.812Z",
+          "endDate": null
+        }
+      ],
+      "locationHistory": [
+        {
+          "sector": "Agente de Contratação",
+          "responsible": "",
+          "startDate": "2025-08-24T13:29:05.805Z",
+          "endDate": "2025-08-24T13:40:15.467Z"
+        },
+        {
+          "sector": "Secretária/Presidente",
+          "responsible": "",
+          "startDate": "2025-08-24T13:40:15.467Z",
+          "endDate": null
+        }
+      ],
+      "isImportant": true,
+      "alertInfo": null
+    },
+    {
+      "processNumber": "2",
+      "object": "Contratação de serviço de desinsetização e desratização",
+      "value": 16000,
+      "deadline": "2025-01-31",
+      "priority": "Alta",
+      "type": "Serviço",
+      "modality": "A definir",
+      "fase": "Contratado",
+      "description": "",
+      "contractDate": "2025-01-23",
+      "purchasedValue": "1500",
+      "location": {
+        "sector": "Agente de Contratação",
+        "responsible": ""
+      },
+      "planId": "1",
+      "id": 1756042929127,
+      "attachments": [],
+      "creationDate": "2025-08-24T13:42:09.127Z",
+      "history": [
+        {
+          "fase": "Planejamento",
+          "startDate": "2025-08-24T13:42:09.127Z",
+          "endDate": "2025-08-24T13:42:32.480Z"
+        },
+        {
+          "fase": "Contratado",
+          "startDate": "2025-08-24T13:42:32.480Z",
+          "endDate": null
+        }
+      ],
+      "locationHistory": [
+        {
+          "sector": "Agente de Contratação",
+          "responsible": "",
+          "startDate": "2025-08-24T13:42:09.127Z",
+          "endDate": null
+        }
+      ]
+    },
+    {
+      "processNumber": "23",
+      "object": "Organização, planejamento e execução de concurso público 4",
+      "value": 40000,
+      "deadline": "2025-04-30",
+      "priority": "Média",
+      "type": "Serviço",
+      "modality": "Dispensa",
+      "fase": "Planejamento",
+      "description": "",
+      "contractDate": "",
+      "purchasedValue": "",
+      "location": {
+        "sector": "Comissão de Contratação",
+        "responsible": ""
+      },
+      "planId": "22",
+      "id": 1756069369685,
+      "attachments": [],
+      "creationDate": "2025-08-24T21:02:49.685Z",
+      "history": [
+        {
+          "fase": "Planejamento",
+          "startDate": "2025-08-24T21:02:49.685Z",
+          "endDate": null
+        }
+      ],
+      "locationHistory": [
+        {
+          "sector": "Agente de Contratação",
+          "responsible": "",
+          "startDate": "2025-08-24T21:02:49.685Z",
+          "endDate": "2025-08-24T21:03:50.441Z"
+        },
+        {
+          "sector": "Secretária/Presidente",
+          "responsible": "",
+          "startDate": "2025-08-24T21:03:50.441Z",
+          "endDate": "2025-08-24T21:04:02.585Z"
+        },
+        {
+          "sector": "Comissão de Contratação",
+          "responsible": "",
+          "startDate": "2025-08-24T21:04:02.585Z",
+          "endDate": null
+        }
+      ]
+    }
+  ]
+}

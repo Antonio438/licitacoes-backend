@@ -1,0 +1,693 @@
+{
+  "processes": [
+    {
+      "id": 1,
+      "object": "Contratação de serviço de desinsetização e desratização",
+      "value": 16000,
+      "priority": "Alta",
+      "deadline": "2025-01-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "Agente de Contratação",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 2,
+      "object": "Serviço de software de tramitação eletrônica de processos",
+      "value": 35000,
+      "priority": "Média",
+      "deadline": "2025-01-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "Agente de Contratação",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 3,
+      "object": "Serviços terceirizados de vigilância desarmada",
+      "value": 150000,
+      "priority": "Alta",
+      "deadline": "2025-01-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "Agente de Contratação",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 4,
+      "object": "Fornecimento de energia elétrica",
+      "value": 40000,
+      "priority": "Alta",
+      "deadline": "2025-01-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 5,
+      "object": "Fornecimento dos serviços de água e esgoto",
+      "value": 6000,
+      "priority": "Alta",
+      "deadline": "2025-01-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 6,
+      "object": "Consultoria para as áreas Administrativa, Contabilidade e Ciências Jurídicas",
+      "value": 230000,
+      "priority": "Média",
+      "deadline": "2025-01-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 7,
+      "object": "Aquisição de material de consumo de informática",
+      "value": 40000,
+      "priority": "Média",
+      "deadline": "2025-02-28",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 8,
+      "object": "Plano de assistência à saúde e odontológica",
+      "value": 180000,
+      "priority": "Alta",
+      "deadline": "2025-02-28",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 9,
+      "object": "Aquisição de gêneros alimentícios",
+      "value": 37000,
+      "priority": "Alta",
+      "deadline": "2025-02-28",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 10,
+      "object": "Serviço de saúde e segurança do trabalho",
+      "value": 12000,
+      "priority": "Alta",
+      "deadline": "2025-02-28",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 11,
+      "object": "Aquisição de ferramentas e material de consumo para uso na manutenção predial",
+      "value": 10000,
+      "priority": "Média",
+      "deadline": "2025-02-28",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 12,
+      "object": "Aquisição de eletrodomésticos e equipamentos elétricos",
+      "value": 80000,
+      "priority": "Média",
+      "deadline": "2025-02-28",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 13,
+      "object": "Serviços de decoração para eventos",
+      "value": 9000,
+      "priority": "Baixa",
+      "deadline": "2025-03-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 14,
+      "object": "Contratação de jornal impresso para publicação de atos oficiais",
+      "value": 11000,
+      "priority": "Alta",
+      "deadline": "2025-03-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 15,
+      "object": "Serviço de agenciamento de passagem aérea e estadia",
+      "value": 65000,
+      "priority": "Baixa",
+      "deadline": "2025-03-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 16,
+      "object": "Serviços de Coffee Break",
+      "value": 15000,
+      "priority": "Baixa",
+      "deadline": "2025-03-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 17,
+      "object": "Serviços fotográficos",
+      "value": 15000,
+      "priority": "Média",
+      "deadline": "2025-03-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 18,
+      "object": "Manutenção de ar condicionado",
+      "value": 17400,
+      "priority": "Alta",
+      "deadline": "2025-04-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 19,
+      "object": "Aquisição de insumos para primeiros socorros",
+      "value": 1200,
+      "priority": "Alta",
+      "deadline": "2025-04-30",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 20,
+      "object": "Aquisição de material de escritório e expediente",
+      "value": 30000,
+      "priority": "Alta",
+      "deadline": "2025-04-30",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 21,
+      "object": "Licença de uso de Sistemas Estruturantes Integrados de Gestão Pública",
+      "value": 60000,
+      "priority": "Alta",
+      "deadline": "2025-04-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 22,
+      "object": "Organização, planejamento e execução de concurso público",
+      "value": 40000,
+      "priority": "Média",
+      "deadline": "2025-04-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 23,
+      "object": "Aquisição de material de limpeza, higiene e utensílios relacionados",
+      "value": 30000,
+      "priority": "Alta",
+      "deadline": "2025-05-31",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 24,
+      "object": "Confecção e instalação de faixas para publicidade de audiências públicas",
+      "value": 2000,
+      "priority": "Média",
+      "deadline": "2025-05-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 25,
+      "object": "Link Dedicado de internet",
+      "value": 18000,
+      "priority": "Alta",
+      "deadline": "2025-05-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 26,
+      "object": "Operação de som, vídeo e transmissão",
+      "value": 60000,
+      "priority": "Alta",
+      "deadline": "2025-06-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 27,
+      "object": "Projeto arquitetônico",
+      "value": 200000,
+      "priority": "Média",
+      "deadline": "2025-05-31",
+      "fase": "Não Iniciado",
+      "type": "Obra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 28,
+      "object": "Serviço de fornecimento de e-mail corporativo",
+      "value": 14000,
+      "priority": "Alta",
+      "deadline": "2025-05-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 29,
+      "object": "Serviço de locomoção",
+      "value": 300000,
+      "priority": "Baixa",
+      "deadline": "2025-05-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 30,
+      "object": "Serviço de pesquisa de mercado e de opinião pública (Enquete)",
+      "value": 2500,
+      "priority": "Baixa",
+      "deadline": "2025-05-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 31,
+      "object": "Serviços gráficos",
+      "value": 5000,
+      "priority": "Baixa",
+      "deadline": "2025-05-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 32,
+      "object": "Sistema de controle de acesso e aquisição de catracas",
+      "value": 20000,
+      "priority": "Média",
+      "deadline": "2025-05-31",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 33,
+      "object": "Aquisição de bandeiras oficiais",
+      "value": 2500,
+      "priority": "Baixa",
+      "deadline": "2025-06-30",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 34,
+      "object": "Serviços postais",
+      "value": 10000,
+      "priority": "Média",
+      "deadline": "2025-06-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 35,
+      "object": "Fornecimento de água mineral",
+      "value": 28000,
+      "priority": "Alta",
+      "deadline": "2025-06-30",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 36,
+      "object": "Serviço de fornecimento de gás",
+      "value": 2000,
+      "priority": "Alta",
+      "deadline": "2025-06-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 37,
+      "object": "Gerenciamento de estagiários",
+      "value": 137000,
+      "priority": "Alta",
+      "deadline": "2025-07-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 38,
+      "object": "Gestão e administração de vale transporte",
+      "value": 35000,
+      "priority": "Média",
+      "deadline": "2025-08-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 39,
+      "object": "Serviço de encadernação de livros",
+      "value": 10000,
+      "priority": "Média",
+      "deadline": "2025-08-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 40,
+      "object": "Serviço de acessibilidade à informação e à comunicação - Tradutor Libras",
+      "value": 12000,
+      "priority": "Média",
+      "deadline": "2025-09-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 41,
+      "object": "Serviços de publicidade legal - pubnet",
+      "value": 30000,
+      "priority": "Alta",
+      "deadline": "2025-09-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 42,
+      "object": "Serviço de carro de som para publicidade",
+      "value": 18000,
+      "priority": "Média",
+      "deadline": "2025-09-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 43,
+      "object": "Serviços de manutenção/recarga/inspeção de extintores e mangueiras de combate a incêndio",
+      "value": 4600,
+      "priority": "Média",
+      "deadline": "2025-09-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 44,
+      "object": "Serviços terceirizados de copeiragem",
+      "value": 115000,
+      "priority": "Alta",
+      "deadline": "2025-10-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 45,
+      "object": "Serviços terceirizados de controle de acesso",
+      "value": 132000,
+      "priority": "Alta",
+      "deadline": "2025-10-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 46,
+      "object": "Serviços terceirizados de limpeza",
+      "value": 160000,
+      "priority": "Alta",
+      "deadline": "2025-10-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 47,
+      "object": "Serviços terceirizados de manutenção predial",
+      "value": 73000,
+      "priority": "Alta",
+      "deadline": "2025-10-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 48,
+      "object": "Serviços terceirizados de recepção",
+      "value": 125000,
+      "priority": "Alta",
+      "deadline": "2025-10-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 49,
+      "object": "Serviço de confecção de placas e medalhas comemorativas",
+      "value": 70000,
+      "priority": "Média",
+      "deadline": "2025-10-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 50,
+      "object": "Serviço de armazenamento em backup em nuvem",
+      "value": 6000,
+      "priority": "Média",
+      "deadline": "2025-11-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 51,
+      "object": "Sistema de monitoramento - Sede Câmara",
+      "value": 40000,
+      "priority": "Média",
+      "deadline": "2025-11-30",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 52,
+      "object": "Capacitação para aperfeiçoamento dos servidores",
+      "value": 30000,
+      "priority": "Média",
+      "deadline": "2025-12-31",
+      "fase": "Não Iniciado",
+      "type": "Serviço",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    },
+    {
+      "id": 53,
+      "object": "Emissão de certificado digital e-cpf",
+      "value": 1800,
+      "priority": "Média",
+      "deadline": "2025-12-31",
+      "fase": "Não Iniciado",
+      "type": "Compra",
+      "location": {
+        "sector": "",
+        "responsible": ""
+      }
+    }
+  ]
+}
