@@ -5,7 +5,10 @@ const path = require('path');
 const multer = require('multer');
 
 const app = express();
-const PORT = 3000;
+
+// --- CONFIGURAÇÃO ESSENCIAL ---
+const PORT = process.env.PORT || 8080; // Usa a porta do Render ou 8080 como padrão
+const ALLOWED_ORIGIN = 'https://antonio438.github.io'; // URL do seu site front-end
 
 const PLAN_DB_PATH = path.join(__dirname, 'plano.json');
 const PROCESSES_DB_PATH = path.join(__dirname, 'processos.json');
@@ -26,29 +29,30 @@ const storage = multer.diskStorage({
         cb(null, `${Date.now()}-${file.originalname}`);
     }
 });
-
 const upload = multer({ storage });
 
-
-// Middlewares
-app.use(cors());
+// --- MIDDLEWARES ---
+// Configuração de segurança CORS para permitir acesso apenas do seu site
+app.use(cors({
+    origin: ALLOWED_ORIGIN
+}));
 app.use(express.json());
-app.use(express.static('public'));
 // Servir arquivos estáticos da pasta uploads
 app.use('/uploads', express.static(UPLOADS_DIR));
 
 
-// --- Funções Auxiliares Genéricas ---
+// --- FUNÇÕES AUXILIARES ---
 const readData = (filePath) => {
     try {
         if (fs.existsSync(filePath)) {
             const data = fs.readFileSync(filePath, 'utf-8');
-            return JSON.parse(data);
+            // Garante que o arquivo não está vazio antes de parsear
+            return data ? JSON.parse(data) : [];
         }
-        return {}; 
+        return [];
     } catch (error) {
         console.error(`Erro ao ler o arquivo ${filePath}:`, error);
-        return {};
+        return []; // Retorna um array vazio em caso de erro
     }
 };
 
@@ -60,109 +64,104 @@ const writeData = (filePath, data) => {
     }
 };
 
-// --- Rotas da API para o PLANO DE CONTRATAÇÃO ---
+// --- ROTAS DA API ---
 
+// Rota para o PLANO DE CONTRATAÇÃO
 app.get('/api/plan', (req, res) => {
-    const data = readData(PLAN_DB_PATH);
-    res.json(data.processes || []);
+    const planItems = readData(PLAN_DB_PATH);
+    // Garante que sempre retorne um array
+    res.json(Array.isArray(planItems) ? planItems : []);
 });
 
-// --- Rotas da API para os PROCESSOS OPERACIONAIS (CRUD completo) ---
-
+// Rota para obter todos os PROCESSOS
 app.get('/api/processes', (req, res) => {
-    const data = readData(PROCESSES_DB_PATH);
-    res.json(data.processes || []);
+    const processes = readData(PROCESSES_DB_PATH);
+    // Garante que sempre retorne um array
+    res.json(Array.isArray(processes) ? processes : []);
 });
 
-// POST: Adicionar um novo processo com arquivos
+// Rota para ADICIONAR um novo processo
 app.post('/api/processes', upload.array('files'), (req, res) => {
-    const data = readData(PROCESSES_DB_PATH);
-    if (!data.processes) data.processes = [];
-    
+    const processes = readData(PROCESSES_DB_PATH);
     const newProcess = req.body;
-    const now = new Date().toISOString();
+    const now = new Date();
 
     newProcess.id = Date.now();
-    newProcess.value = parseFloat(newProcess.value);
-    
+    newProcess.value = parseFloat(newProcess.value || 0);
+    newProcess.purchasedValue = parseFloat(newProcess.purchasedValue || 0);
+
+    // Converte 'location' de string JSON para objeto, se necessário
     if (typeof newProcess.location === 'string') {
         newProcess.location = JSON.parse(newProcess.location);
     }
 
-    if (req.files) {
-        newProcess.attachments = req.files.map(file => ({
-            filename: file.filename,
-            originalname: file.originalname,
-            path: file.path
-        }));
-    } else {
-        newProcess.attachments = [];
-    }
-    
-    newProcess.creationDate = now;
+    // Processa os anexos
+    newProcess.attachments = req.files ? req.files.map(file => ({
+        filename: file.filename,
+        originalname: file.originalname,
+        path: file.path
+    })) : [];
+
+    newProcess.creationDate = now.toISOString();
     // Inicializa o histórico de fase
     newProcess.history = [{
         fase: newProcess.fase,
-        startDate: now,
+        startDate: now.toISOString(),
         endDate: null
     }];
     // Inicializa o histórico de localização
     newProcess.locationHistory = [{
         sector: newProcess.location.sector,
         responsible: newProcess.location.responsible,
-        startDate: now,
+        startDate: now.toISOString(),
         endDate: null
     }];
 
-    data.processes.push(newProcess);
-    writeData(PROCESSES_DB_PATH, data);
+    processes.push(newProcess);
+    writeData(PROCESSES_DB_PATH, processes);
     res.status(201).json(newProcess);
 });
 
-
-// PUT: Atualizar um processo existente com arquivos
+// Rota para ATUALIZAR um processo existente
 app.put('/api/processes/:id', upload.array('files'), (req, res) => {
     const processId = parseInt(req.params.id);
     const updatedData = req.body;
-    const data = readData(PROCESSES_DB_PATH);
+    const processes = readData(PROCESSES_DB_PATH);
 
-    if (!data.processes) {
-        return res.status(404).json({ message: 'Nenhum processo encontrado.' });
-    }
-
-    const processIndex = data.processes.findIndex(p => p.id === processId);
-
+    const processIndex = processes.findIndex(p => p.id === processId);
     if (processIndex === -1) {
         return res.status(404).json({ message: 'Processo não encontrado.' });
     }
 
-    const existingProcess = { ...data.processes[processIndex] };
+    const existingProcess = { ...processes[processIndex] };
     const now = new Date().toISOString();
 
-    // Lógica para rastrear a mudança de fase
-    if (updatedData.fase && updatedData.fase !== existingProcess.fase) {
-        if (!existingProcess.history) existingProcess.history = [];
+    // Garante que os históricos existam
+    if (!existingProcess.history) existingProcess.history = [];
+    if (!existingProcess.locationHistory) existingProcess.locationHistory = [];
+    
+    // Converte valores numéricos
+    if (updatedData.value) updatedData.value = parseFloat(updatedData.value);
+    if (updatedData.purchasedValue) updatedData.purchasedValue = parseFloat(updatedData.purchasedValue);
+
+    // Lógica para rastrear a mudança de fase (se a opção de log estiver ativa)
+    const logHistory = (updatedData.logHistory === 'true' || updatedData.logHistory === true);
+    if (logHistory && updatedData.fase && updatedData.fase !== existingProcess.fase) {
         const lastHistoryEntry = existingProcess.history[existingProcess.history.length - 1];
         if (lastHistoryEntry) lastHistoryEntry.endDate = now;
         existingProcess.history.push({ fase: updatedData.fase, startDate: now, endDate: null });
     }
-    
-    // Converte location de string para objeto, se necessário
+
+    // Converte 'location' de string para objeto, se necessário
     if (typeof updatedData.location === 'string') {
         updatedData.location = JSON.parse(updatedData.location);
     }
 
-    // Lógica para rastrear a mudança de localização
+    // Lógica para rastrear a mudança de localização (se a opção de log estiver ativa)
     const newLocation = updatedData.location;
-    if (newLocation && (newLocation.sector !== existingProcess.location.sector || newLocation.responsible !== existingProcess.location.responsible)) {
-        if (!existingProcess.locationHistory) existingProcess.locationHistory = [];
-        
-        // CORREÇÃO DO BUG: Usar o 'locationHistory' para encontrar o último item, e não o 'history'.
-        const lastLocationEntry = existingProcess.locationHistory[existingProcess.locationHistory.length - 1];
-        if (lastLocationEntry) {
-            lastLocationEntry.endDate = now;
-        }
-
+    const lastLocationEntry = existingProcess.locationHistory[existingProcess.locationHistory.length - 1];
+    if (logHistory && newLocation && (newLocation.sector !== lastLocationEntry.sector || newLocation.responsible !== lastLocationEntry.responsible)) {
+        if (lastLocationEntry) lastLocationEntry.endDate = now;
         existingProcess.locationHistory.push({
             sector: newLocation.sector,
             responsible: newLocation.responsible,
@@ -171,38 +170,34 @@ app.put('/api/processes/:id', upload.array('files'), (req, res) => {
         });
     }
 
+    // Adiciona novos anexos sem apagar os antigos
     const existingAttachments = existingProcess.attachments || [];
     const newAttachments = req.files ? req.files.map(file => ({
         filename: file.filename,
         originalname: file.originalname,
         path: file.path
     })) : [];
-    
-    if (updatedData.value) updatedData.value = parseFloat(updatedData.value);
 
-    data.processes[processIndex] = { 
+    // Mescla os dados, garantindo que o ID não seja sobrescrito por engano
+    processes[processIndex] = {
         ...existingProcess,
-        ...updatedData, 
+        ...updatedData,
         id: processId,
         attachments: [...existingAttachments, ...newAttachments]
     };
-    
-    writeData(PROCESSES_DB_PATH, data);
-    res.json(data.processes[processIndex]);
+
+    writeData(PROCESSES_DB_PATH, processes);
+    res.json(processes[processIndex]);
 });
 
-
-// DELETE: Excluir um processo
+// Rota para EXCLUIR um processo
 app.delete('/api/processes/:id', (req, res) => {
     const processId = parseInt(req.params.id);
-    const data = readData(PROCESSES_DB_PATH);
-
-    if (!data.processes) {
-        return res.status(404).json({ message: 'Nenhum processo encontrado.' });
-    }
-
-    const processToDelete = data.processes.find(p => p.id === processId);
+    let processes = readData(PROCESSES_DB_PATH);
     
+    const processToDelete = processes.find(p => p.id === processId);
+    
+    // Apaga os ficheiros de anexo associados ao processo
     if (processToDelete && processToDelete.attachments) {
         processToDelete.attachments.forEach(file => {
             if (fs.existsSync(file.path)) {
@@ -211,19 +206,17 @@ app.delete('/api/processes/:id', (req, res) => {
         });
     }
 
-    const initialLength = data.processes.length;
-    data.processes = data.processes.filter(p => p.id !== processId);
+    const updatedProcesses = processes.filter(p => p.id !== processId);
 
-    if (data.processes.length === initialLength) {
+    if (processes.length === updatedProcesses.length) {
         return res.status(404).json({ message: 'Processo não encontrado.' });
     }
 
-    writeData(PROCESSES_DB_PATH, data);
+    writeData(PROCESSES_DB_PATH, updatedProcesses);
     res.status(204).send();
 });
 
-
-// Iniciar o servidor
-app.listen(PORT, () => {
-    console.log(`Servidor rodando em http://localhost:${PORT}`);
+// --- INICIAR O SERVIDOR ---
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Servidor a correr na porta ${PORT}`);
 });
