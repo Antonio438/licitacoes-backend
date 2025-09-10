@@ -1,1534 +1,1533 @@
-{
-  "processes": [
-    {
-      "processNumber": "31/2024",
-      "object": "Contratação de serviço de desinsetização e desratização",
-      "value": 16000,
-      "deadline": "2025-01-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "Dispensa",
-      "fase": "Contratado",
-      "description": "dispensa 1/25\r\n",
-      "contractDate": "2025-04-17",
-      "purchasedValue": "0.00",
-      "location": {
-        "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "1",
-      "id": 1756917765948,
-      "attachments": [],
-      "creationDate": "2025-09-03T16:42:45.947Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-04-17T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T16:42:45.947Z",
-          "endDate": null
-        }
-      ]
+[
+  {
+    "processNumber": "31/2024",
+    "object": "Contratação de serviço de desinsetização e desratização",
+    "value": 16000,
+    "deadline": "2025-01-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "Dispensa",
+    "fase": "Contratado",
+    "description": "dispensa 1/25\r\n",
+    "contractDate": "2025-04-17",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "54/2024",
-      "object": "Serviço de software de tramitação eletrônica de processos",
-      "value": 35000,
-      "deadline": "2025-01-31",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "2025-04-17",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "1",
+    "id": 1756917765948,
+    "attachments": [],
+    "creationDate": "2025-09-03T16:42:45.947Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-04-17T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
+        "sector": "Agente de Contratação",
+        "responsible": "",
+        "startDate": "2025-09-03T16:42:45.947Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "54/2024",
+    "object": "Serviço de software de tramitação eletrônica de processos",
+    "value": 35000,
+    "deadline": "2025-01-31",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "2025-04-17",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
+    },
+    "planId": "2",
+    "id": 1756918263679,
+    "attachments": [],
+    "creationDate": "2025-09-03T16:51:03.679Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-04-17T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "2",
-      "id": 1756918263679,
-      "attachments": [],
-      "creationDate": "2025-09-03T16:51:03.679Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-04-17T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T16:51:03.679Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T16:51:03.679Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "02/2025",
+    "object": "Serviços terceirizados de vigilância desarmada",
+    "value": 150000,
+    "deadline": "2025-01-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "Pregão",
+    "fase": "Contratado",
+    "description": "pregão 4/2025\r\n",
+    "contractDate": "2025-04-17",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
     },
-    {
-      "processNumber": "02/2025",
-      "object": "Serviços terceirizados de vigilância desarmada",
-      "value": 150000,
-      "deadline": "2025-01-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "Pregão",
-      "fase": "Contratado",
-      "description": "pregão 4/2025\r\n",
-      "contractDate": "2025-04-17",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "3",
+    "id": 1756918395098,
+    "attachments": [],
+    "creationDate": "2025-09-03T16:53:15.098Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-04-17T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "3",
-      "id": 1756918395098,
-      "attachments": [],
-      "creationDate": "2025-09-03T16:53:15.098Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-04-17T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T16:53:15.098Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T16:53:15.098Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "58/2025",
+    "object": "Fornecimento de energia elétrica",
+    "value": 40000,
+    "deadline": "2025-01-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "58/2025",
-      "object": "Fornecimento de energia elétrica",
-      "value": 40000,
-      "deadline": "2025-01-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "4",
+    "id": 1756918435037,
+    "attachments": [],
+    "creationDate": "2025-09-03T16:53:55.037Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T16:53:55.037Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "4",
-      "id": 1756918435037,
-      "attachments": [],
-      "creationDate": "2025-09-03T16:53:55.037Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T16:53:55.037Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T16:53:55.037Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T16:53:55.037Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "57/2025",
+    "object": "Fornecimento dos serviços de água e esgoto",
+    "value": 6000,
+    "deadline": "2025-01-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "57/2025",
-      "object": "Fornecimento dos serviços de água e esgoto",
-      "value": 6000,
-      "deadline": "2025-01-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "5",
+    "id": 1756918549274,
+    "attachments": [],
+    "creationDate": "2025-09-03T16:55:49.274Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T16:55:49.274Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "5",
-      "id": 1756918549274,
-      "attachments": [],
-      "creationDate": "2025-09-03T16:55:49.274Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T16:55:49.274Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T16:55:49.274Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T16:55:49.274Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?",
+    "object": "Consultoria para as áreas Administrativa, Contabilidade e Ciências Jurídicas",
+    "value": 230000,
+    "deadline": "2025-01-31",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?",
-      "object": "Consultoria para as áreas Administrativa, Contabilidade e Ciências Jurídicas",
-      "value": 230000,
-      "deadline": "2025-01-31",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "6",
+    "id": 1756918692160,
+    "attachments": [],
+    "creationDate": "2025-09-03T16:58:12.160Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T16:58:12.160Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "6",
-      "id": 1756918692160,
-      "attachments": [],
-      "creationDate": "2025-09-03T16:58:12.160Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T16:58:12.160Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T16:58:12.160Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T16:58:12.160Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "04/2025",
+    "object": "Aquisição de material de consumo de informática",
+    "value": 40000,
+    "deadline": "2025-02-28",
+    "priority": "Média",
+    "type": "Compra",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
     },
-    {
-      "processNumber": "04/2025",
-      "object": "Aquisição de material de consumo de informática",
-      "value": 40000,
-      "deadline": "2025-02-28",
-      "priority": "Média",
-      "type": "Compra",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "7",
+    "id": 1756918877530,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:01:17.530Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:01:17.530Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "7",
-      "id": 1756918877530,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:01:17.530Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:01:17.530Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T17:01:17.530Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:01:17.530Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "03/2025",
+    "object": "Aquisição de gêneros alimentícios",
+    "value": 37000,
+    "deadline": "2025-02-28",
+    "priority": "Alta",
+    "type": "Compra",
+    "modality": "Pregão",
+    "fase": "Contratado",
+    "description": "pregao 3/25\r\n",
+    "contractDate": "2025-03-19",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
     },
-    {
-      "processNumber": "03/2025",
-      "object": "Aquisição de gêneros alimentícios",
-      "value": 37000,
-      "deadline": "2025-02-28",
-      "priority": "Alta",
-      "type": "Compra",
-      "modality": "Pregão",
-      "fase": "Contratado",
-      "description": "pregao 3/25\r\n",
-      "contractDate": "2025-03-19",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "9",
+    "id": 1756918997743,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:03:17.743Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-03-19T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "9",
-      "id": 1756918997743,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:03:17.743Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-03-19T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T17:03:17.743Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:03:17.743Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "05/2025",
+    "object": "Serviço de saúde e segurança do trabalho",
+    "value": 12000,
+    "deadline": "2025-02-28",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "Dispensa",
+    "fase": "Contratado",
+    "description": "dispensa 5/25\r\n",
+    "contractDate": "2025-08-07",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
     },
-    {
-      "processNumber": "05/2025",
-      "object": "Serviço de saúde e segurança do trabalho",
-      "value": 12000,
-      "deadline": "2025-02-28",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "Dispensa",
-      "fase": "Contratado",
-      "description": "dispensa 5/25\r\n",
-      "contractDate": "2025-08-07",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "10",
+    "id": 1756919121443,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:05:21.442Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-08-07T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "10",
-      "id": 1756919121443,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:05:21.442Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-08-07T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T17:05:21.442Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:05:21.442Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "09/2025",
+    "object": "Aquisição de ferramentas e material de consumo para uso na manutenção predial",
+    "value": 10000,
+    "deadline": "2025-02-28",
+    "priority": "Média",
+    "type": "Compra",
+    "modality": "Dispensa",
+    "fase": "Contratado",
+    "description": "dispensa 2/25\r\n",
+    "contractDate": "2025-06-16",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
     },
-    {
-      "processNumber": "09/2025",
-      "object": "Aquisição de ferramentas e material de consumo para uso na manutenção predial",
-      "value": 10000,
-      "deadline": "2025-02-28",
-      "priority": "Média",
-      "type": "Compra",
-      "modality": "Dispensa",
-      "fase": "Contratado",
-      "description": "dispensa 2/25\r\n",
-      "contractDate": "2025-06-16",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "11",
+    "id": 1756919209849,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:06:49.849Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-06-16T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "11",
-      "id": 1756919209849,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:06:49.849Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-06-16T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T17:06:49.849Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:06:49.849Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "23/2025",
+    "object": "Aquisição de eletrodomésticos e equipamentos elétricos",
+    "value": 80000,
+    "deadline": "2025-02-28",
+    "priority": "Média",
+    "type": "Compra",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "23/2025",
-      "object": "Aquisição de eletrodomésticos e equipamentos elétricos",
-      "value": 80000,
-      "deadline": "2025-02-28",
-      "priority": "Média",
-      "type": "Compra",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "12",
+    "id": 1756919306335,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:08:26.335Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:08:26.335Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "12",
-      "id": 1756919306335,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:08:26.335Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:08:26.335Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:08:26.335Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:08:26.335Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "47/2022",
+    "object": "Serviços de decoração para eventos",
+    "value": 9000,
+    "deadline": "2025-03-31",
+    "priority": "Baixa",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "47/2022\r\n",
+    "contractDate": "2025-03-21",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
     },
-    {
-      "processNumber": "47/2022",
-      "object": "Serviços de decoração para eventos",
-      "value": 9000,
-      "deadline": "2025-03-31",
-      "priority": "Baixa",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "47/2022\r\n",
-      "contractDate": "2025-03-21",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "13",
+    "id": 1756919505145,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:11:45.145Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-03-21T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "13",
-      "id": 1756919505145,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:11:45.145Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-03-21T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T17:11:45.145Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:11:45.145Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "07/2025",
+    "object": "Manutenção de ar condicionado",
+    "value": 17400,
+    "deadline": "2025-04-30",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
     },
-    {
-      "processNumber": "07/2025",
-      "object": "Manutenção de ar condicionado",
-      "value": 17400,
-      "deadline": "2025-04-30",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "18",
+    "id": 1756919583892,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:13:03.892Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:13:03.892Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "18",
-      "id": 1756919583892,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:13:03.892Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:13:03.892Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T17:13:03.892Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:13:03.892Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "20/2025",
+    "object": "Aquisição de insumos para primeiros socorros",
+    "value": 1200,
+    "deadline": "2025-04-30",
+    "priority": "Alta",
+    "type": "Compra",
+    "modality": "A definir",
+    "fase": "Em Licitação",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
     },
-    {
-      "processNumber": "20/2025",
-      "object": "Aquisição de insumos para primeiros socorros",
-      "value": 1200,
-      "deadline": "2025-04-30",
-      "priority": "Alta",
-      "type": "Compra",
-      "modality": "A definir",
-      "fase": "Em Licitação",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "19",
+    "id": 1756919642081,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:14:02.081Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:14:02.081Z",
+        "endDate": "2025-09-04T10:51:43.203Z"
+      },
+      {
+        "fase": "Em Licitação",
+        "startDate": "2025-09-04T10:51:43.203Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "19",
-      "id": 1756919642081,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:14:02.081Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:14:02.081Z",
-          "endDate": "2025-09-04T10:51:43.203Z"
-        },
-        {
-          "fase": "Em Licitação",
-          "startDate": "2025-09-04T10:51:43.203Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T17:14:02.081Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:14:02.081Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "13/2025",
+    "object": "Aquisição de material de escritório e expediente",
+    "value": 30000,
+    "deadline": "2025-04-30",
+    "priority": "Alta",
+    "type": "Compra",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "13/2025",
-      "object": "Aquisição de material de escritório e expediente",
-      "value": 30000,
-      "deadline": "2025-04-30",
-      "priority": "Alta",
-      "type": "Compra",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "20",
+    "id": 1756919690643,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:14:50.643Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:14:50.643Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "20",
-      "id": 1756919690643,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:14:50.643Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:14:50.643Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:14:50.643Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:14:50.643Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?1",
+    "object": "Licença de uso de Sistemas Estruturantes Integrados de Gestão Pública",
+    "value": 60000,
+    "deadline": "2025-04-30",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "2025-04-17",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?1",
-      "object": "Licença de uso de Sistemas Estruturantes Integrados de Gestão Pública",
-      "value": 60000,
-      "deadline": "2025-04-30",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "2025-04-17",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "21",
+    "id": 1756919791530,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:16:31.530Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-04-17T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "21",
-      "id": 1756919791530,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:16:31.530Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-04-17T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:16:31.530Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:16:31.530Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "08/2025",
+    "object": "Organização, planejamento e execução de concurso público",
+    "value": 40000,
+    "deadline": "2025-04-30",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "?",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "08/2025",
-      "object": "Organização, planejamento e execução de concurso público",
-      "value": 40000,
-      "deadline": "2025-04-30",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "?",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "22",
+    "id": 1756919939790,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:18:59.790Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:18:59.790Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "22",
-      "id": 1756919939790,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:18:59.790Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:18:59.790Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:18:59.790Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:18:59.790Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "11/2025",
+    "object": "Aquisição de material de limpeza, higiene e utensílios relacionados",
+    "value": 30000,
+    "deadline": "2025-05-31",
+    "priority": "Alta",
+    "type": "Compra",
+    "modality": "Dispensa",
+    "fase": "Contratado",
+    "description": "dispensa 6/25\r\n",
+    "contractDate": "2025-07-03",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Compras",
+      "responsible": ""
     },
-    {
-      "processNumber": "11/2025",
-      "object": "Aquisição de material de limpeza, higiene e utensílios relacionados",
-      "value": 30000,
-      "deadline": "2025-05-31",
-      "priority": "Alta",
-      "type": "Compra",
-      "modality": "Dispensa",
-      "fase": "Contratado",
-      "description": "dispensa 6/25\r\n",
-      "contractDate": "2025-07-03",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "23",
+    "id": 1756919995481,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:19:55.481Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:19:55.481Z",
+        "endDate": "2025-09-03T17:21:07.824Z"
+      },
+      {
+        "fase": "Contratado",
+        "startDate": "2025-07-03T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
+        "sector": "Agente de Contratação",
+        "responsible": "",
+        "startDate": "2025-09-03T17:19:55.481Z",
+        "endDate": "2025-09-03T17:21:07.824Z"
+      },
+      {
         "sector": "Compras",
-        "responsible": ""
-      },
-      "planId": "23",
-      "id": 1756919995481,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:19:55.481Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:19:55.481Z",
-          "endDate": "2025-09-03T17:21:07.824Z"
-        },
-        {
-          "fase": "Contratado",
-          "startDate": "2025-07-03T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:19:55.481Z",
-          "endDate": "2025-09-03T17:21:07.824Z"
-        },
-        {
-          "sector": "Compras",
-          "responsible": "",
-          "startDate": "2025-09-03T17:21:07.824Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:21:07.824Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "21/2025",
+    "object": "Confecção e instalação de faixas para publicidade de audiências públicas",
+    "value": 2000,
+    "deadline": "2025-05-31",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "2025-04-12",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "21/2025",
-      "object": "Confecção e instalação de faixas para publicidade de audiências públicas",
-      "value": 2000,
-      "deadline": "2025-05-31",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "2025-04-12",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "24",
+    "id": 1756920199761,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:23:19.761Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-04-12T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "24",
-      "id": 1756920199761,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:23:19.761Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-04-12T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:23:19.761Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:23:19.761Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?2",
+    "object": "Link Dedicado de internet",
+    "value": 18000,
+    "deadline": "2025-05-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "2025-05-21",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?2",
-      "object": "Link Dedicado de internet",
-      "value": 18000,
-      "deadline": "2025-05-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "2025-05-21",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "25",
+    "id": 1756920252295,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:24:12.295Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-05-21T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "25",
-      "id": 1756920252295,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:24:12.295Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-05-21T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:24:12.295Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:24:12.295Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "32/2023",
+    "object": "Operação de som, vídeo e transmissão",
+    "value": 60000,
+    "deadline": "2025-06-30",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "2025-04-09",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "32/2023",
-      "object": "Operação de som, vídeo e transmissão",
-      "value": 60000,
-      "deadline": "2025-06-30",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "2025-04-09",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "26",
+    "id": 1756920333412,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:25:33.411Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-04-09T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "26",
-      "id": 1756920333412,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:25:33.411Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-04-09T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:25:33.411Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:25:33.411Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?3",
+    "object": "Projeto arquitetônico",
+    "value": 200000,
+    "deadline": "2025-05-31",
+    "priority": "Média",
+    "type": "Obra",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?3",
-      "object": "Projeto arquitetônico",
-      "value": 200000,
-      "deadline": "2025-05-31",
-      "priority": "Média",
-      "type": "Obra",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "27",
+    "id": 1756920370481,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:26:10.481Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:26:10.481Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "27",
-      "id": 1756920370481,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:26:10.481Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:26:10.481Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:26:10.481Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:26:10.481Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "14/2024",
+    "object": "Serviço de fornecimento de e-mail corporativo",
+    "value": 14000,
+    "deadline": "2025-05-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "2025-04-10",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "14/2024",
-      "object": "Serviço de fornecimento de e-mail corporativo",
-      "value": 14000,
-      "deadline": "2025-05-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "2025-04-10",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "28",
+    "id": 1756920459133,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:27:39.133Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-04-10T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "28",
-      "id": 1756920459133,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:27:39.133Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-04-10T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:27:39.133Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:27:39.133Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?4",
+    "object": "Serviço de locomoção",
+    "value": 300000,
+    "deadline": "2025-05-31",
+    "priority": "Baixa",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "SUSPENSO",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?4",
-      "object": "Serviço de locomoção",
-      "value": 300000,
-      "deadline": "2025-05-31",
-      "priority": "Baixa",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "SUSPENSO",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "29",
+    "id": 1756920501710,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:28:21.710Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:28:21.710Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "29",
-      "id": 1756920501710,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:28:21.710Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:28:21.710Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:28:21.710Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:28:21.710Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "06/2025",
+    "object": "Sistema de controle de acesso e aquisição de catracas",
+    "value": 20000,
+    "deadline": "2025-05-31",
+    "priority": "Média",
+    "type": "Compra",
+    "modality": "A definir",
+    "fase": "Não Iniciado",
+    "description": "SUSPENSO",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "06/2025",
-      "object": "Sistema de controle de acesso e aquisição de catracas",
-      "value": 20000,
-      "deadline": "2025-05-31",
-      "priority": "Média",
-      "type": "Compra",
-      "modality": "A definir",
-      "fase": "Não Iniciado",
-      "description": "SUSPENSO",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "32",
+    "id": 1756920584522,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:29:44.522Z",
+    "history": [
+      {
+        "fase": "Não Iniciado",
+        "startDate": "2025-09-03T17:29:44.522Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "32",
-      "id": 1756920584522,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:29:44.522Z",
-      "history": [
-        {
-          "fase": "Não Iniciado",
-          "startDate": "2025-09-03T17:29:44.522Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:29:44.522Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:29:44.522Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "12/2025",
+    "object": "Serviços postais",
+    "value": 10000,
+    "deadline": "2025-06-30",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "Inexigibilidade",
+    "fase": "Contratado",
+    "description": "inexigibilidade 3/25\r\n",
+    "contractDate": "2025-06-23",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "12/2025",
-      "object": "Serviços postais",
-      "value": 10000,
-      "deadline": "2025-06-30",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "Inexigibilidade",
-      "fase": "Contratado",
-      "description": "inexigibilidade 3/25\r\n",
-      "contractDate": "2025-06-23",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "34",
+    "id": 1756920695673,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:31:35.673Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-06-23T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "34",
-      "id": 1756920695673,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:31:35.673Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-06-23T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:31:35.673Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:31:35.673Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "14/2025",
+    "object": "Fornecimento de água mineral",
+    "value": 28000,
+    "deadline": "2025-06-30",
+    "priority": "Alta",
+    "type": "Compra",
+    "modality": "Dispensa",
+    "fase": "Contratado",
+    "description": "dispensa 3/25\r\n",
+    "contractDate": "2025-06-03",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "14/2025",
-      "object": "Fornecimento de água mineral",
-      "value": 28000,
-      "deadline": "2025-06-30",
-      "priority": "Alta",
-      "type": "Compra",
-      "modality": "Dispensa",
-      "fase": "Contratado",
-      "description": "dispensa 3/25\r\n",
-      "contractDate": "2025-06-03",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "35",
+    "id": 1756920777578,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:32:57.578Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-06-03T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "35",
-      "id": 1756920777578,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:32:57.578Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-06-03T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:32:57.578Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:32:57.578Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "15/2025",
+    "object": "Serviço de fornecimento de gás",
+    "value": 2000,
+    "deadline": "2025-06-30",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "Dispensa",
+    "fase": "Contratado",
+    "description": "dispensa 4/25\r\n",
+    "contractDate": "2025-06-13",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "15/2025",
-      "object": "Serviço de fornecimento de gás",
-      "value": 2000,
-      "deadline": "2025-06-30",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "Dispensa",
-      "fase": "Contratado",
-      "description": "dispensa 4/25\r\n",
-      "contractDate": "2025-06-13",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "36",
+    "id": 1756920887890,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:34:47.890Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-06-13T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "36",
-      "id": 1756920887890,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:34:47.890Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-06-13T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:34:47.890Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:34:47.890Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "15/2023",
+    "object": "Gerenciamento de estagiários",
+    "value": 137000,
+    "deadline": "2025-07-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "15/2023",
-      "object": "Gerenciamento de estagiários",
-      "value": 137000,
-      "deadline": "2025-07-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "37",
+    "id": 1756920949296,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:35:49.296Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T17:35:49.296Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "37",
-      "id": 1756920949296,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:35:49.296Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T17:35:49.296Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:35:49.296Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:35:49.296Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "19/2025",
+    "object": "Gestão e administração de vale transporte",
+    "value": 35000,
+    "deadline": "2025-08-31",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Em Licitação",
+    "description": "????????",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "19/2025",
-      "object": "Gestão e administração de vale transporte",
-      "value": 35000,
-      "deadline": "2025-08-31",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Em Licitação",
-      "description": "????????",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "38",
+    "id": 1756920991304,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:36:31.304Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:36:31.304Z",
+        "endDate": "2025-09-04T10:51:26.882Z"
+      },
+      {
+        "fase": "Em Licitação",
+        "startDate": "2025-09-04T10:51:26.882Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "38",
-      "id": 1756920991304,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:36:31.304Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:36:31.304Z",
-          "endDate": "2025-09-04T10:51:26.882Z"
-        },
-        {
-          "fase": "Em Licitação",
-          "startDate": "2025-09-04T10:51:26.882Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:36:31.304Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:36:31.304Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "29/2024",
+    "object": "Serviço de encadernação de livros",
+    "value": 10000,
+    "deadline": "2025-08-31",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "2025-05-21",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "29/2024",
-      "object": "Serviço de encadernação de livros",
-      "value": 10000,
-      "deadline": "2025-08-31",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "2025-05-21",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "39",
+    "id": 1756921072587,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:37:52.587Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-05-21T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "39",
-      "id": 1756921072587,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:37:52.587Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-05-21T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:37:52.587Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:37:52.587Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?5",
+    "object": "Serviços de publicidade legal - pubnet",
+    "value": 30000,
+    "deadline": "2025-09-30",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "2025-08-25",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?5",
-      "object": "Serviços de publicidade legal - pubnet",
-      "value": 30000,
-      "deadline": "2025-09-30",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "2025-08-25",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "41",
+    "id": 1756921149584,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:39:09.584Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-08-25T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "41",
-      "id": 1756921149584,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:39:09.584Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-08-25T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:39:09.584Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:39:09.584Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?6",
+    "object": "Serviço de carro de som para publicidade",
+    "value": 18000,
+    "deadline": "2025-09-30",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?6",
-      "object": "Serviço de carro de som para publicidade",
-      "value": 18000,
-      "deadline": "2025-09-30",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "42",
+    "id": 1756921188392,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:39:48.392Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T17:39:48.392Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "42",
-      "id": 1756921188392,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:39:48.392Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T17:39:48.392Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:39:48.392Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:39:48.392Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "22/2025",
+    "object": "Serviços de manutenção/recarga/inspeção de extintores e mangueiras de combate a incêndio",
+    "value": 4600,
+    "deadline": "2025-09-30",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "22/2025",
-      "object": "Serviços de manutenção/recarga/inspeção de extintores e mangueiras de combate a incêndio",
-      "value": 4600,
-      "deadline": "2025-09-30",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "43",
+    "id": 1756921222435,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:40:22.435Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:40:22.435Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "43",
-      "id": 1756921222435,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:40:22.435Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:40:22.435Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:40:22.435Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:40:22.435Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?7",
+    "object": "Serviços terceirizados de copeiragem",
+    "value": 115000,
+    "deadline": "2025-10-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?7",
-      "object": "Serviços terceirizados de copeiragem",
-      "value": 115000,
-      "deadline": "2025-10-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "44",
+    "id": 1756921261056,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:41:01.056Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T17:41:01.056Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "44",
-      "id": 1756921261056,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:41:01.056Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T17:41:01.056Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:41:01.056Z",
-          "endDate": null
-        }
-      ]
-    },
-    {
-      "processNumber": "?8",
-      "object": "Serviços terceirizados de controle de acesso",
-      "value": 132000,
-      "deadline": "2025-10-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": "{\"sector\":\"Agente de Contratação\",\"responsible\":\"\"}",
-      "planId": "45",
-      "id": 1756921300991,
-      "attachments": [],
-      "creationDate": "2025-09-03T12:00:00.000Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T12:00:00.000Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T12:00:00.000Z",
-          "endDate": null
-        }
-      ]
-    },
-    {
-      "processNumber": "?9",
-      "object": "Serviços terceirizados de limpeza",
-      "value": 160000,
-      "deadline": "2025-10-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+        "responsible": "",
+        "startDate": "2025-09-03T17:41:01.056Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?8",
+    "object": "Serviços terceirizados de controle de acesso",
+    "value": 132000,
+    "deadline": "2025-10-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": "{\"sector\":\"Agente de Contratação\",\"responsible\":\"\"}",
+    "planId": "45",
+    "id": 1756921300991,
+    "attachments": [],
+    "creationDate": "2025-09-03T12:00:00.000Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T12:00:00.000Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "46",
-      "id": 1756921338219,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:42:18.219Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T17:42:18.219Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:42:18.219Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T12:00:00.000Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?9",
+    "object": "Serviços terceirizados de limpeza",
+    "value": 160000,
+    "deadline": "2025-10-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?11",
-      "object": "Serviços terceirizados de manutenção predial",
-      "value": 73000,
-      "deadline": "2025-10-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "46",
+    "id": 1756921338219,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:42:18.219Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T17:42:18.219Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "47",
-      "id": 1756921369948,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:42:49.948Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T17:42:49.948Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:42:49.948Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:42:18.219Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?11",
+    "object": "Serviços terceirizados de manutenção predial",
+    "value": 73000,
+    "deadline": "2025-10-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?12",
-      "object": "Serviços terceirizados de recepção",
-      "value": 125000,
-      "deadline": "2025-10-31",
-      "priority": "Alta",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "47",
+    "id": 1756921369948,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:42:49.948Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T17:42:49.948Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "48",
-      "id": 1756921399609,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:43:19.609Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T17:43:19.609Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:43:19.609Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:42:49.948Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?12",
+    "object": "Serviços terceirizados de recepção",
+    "value": 125000,
+    "deadline": "2025-10-31",
+    "priority": "Alta",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "18/2025",
-      "object": "Serviço de confecção de placas e medalhas comemorativas",
-      "value": 70000,
-      "deadline": "2025-10-31",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "?",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "48",
+    "id": 1756921399609,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:43:19.609Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T17:43:19.609Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "49",
-      "id": 1756921443174,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:44:03.174Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:44:03.174Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:44:03.174Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:43:19.609Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "18/2025",
+    "object": "Serviço de confecção de placas e medalhas comemorativas",
+    "value": 70000,
+    "deadline": "2025-10-31",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "?",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?13",
-      "object": "Serviço de armazenamento em backup em nuvem",
-      "value": 6000,
-      "deadline": "2025-11-30",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Contratado",
-      "description": "",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "49",
+    "id": 1756921443174,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:44:03.174Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:44:03.174Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "50",
-      "id": 1756921488776,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:44:48.776Z",
-      "history": [
-        {
-          "fase": "Contratado",
-          "startDate": "2025-09-03T17:44:48.776Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:44:48.776Z",
-          "endDate": null
-        }
-      ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:44:03.174Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?13",
+    "object": "Serviço de armazenamento em backup em nuvem",
+    "value": 6000,
+    "deadline": "2025-11-30",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Contratado",
+    "description": "",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
     },
-    {
-      "processNumber": "?14",
-      "object": "Sistema de monitoramento - Sede Câmara",
-      "value": 40000,
-      "deadline": "2025-11-30",
-      "priority": "Média",
-      "type": "Serviço",
-      "modality": "A definir",
-      "fase": "Planejamento",
-      "description": "???",
-      "contractDate": "",
-      "purchasedValue": "0.00",
-      "location": {
+    "planId": "50",
+    "id": 1756921488776,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:44:48.776Z",
+    "history": [
+      {
+        "fase": "Contratado",
+        "startDate": "2025-09-03T17:44:48.776Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
         "sector": "Agente de Contratação",
-        "responsible": ""
-      },
-      "planId": "51",
-      "id": 1756921534621,
-      "attachments": [],
-      "creationDate": "2025-09-03T17:45:34.621Z",
-      "history": [
-        {
-          "fase": "Planejamento",
-          "startDate": "2025-09-03T17:45:34.621Z",
-          "endDate": null
-        }
-      ],
-      "locationHistory": [
-        {
-          "sector": "Agente de Contratação",
-          "responsible": "",
-          "startDate": "2025-09-03T17:45:34.621Z",
-          "endDate": null
-        }
-      ]
-    }
-  ]
+        "responsible": "",
+        "startDate": "2025-09-03T17:44:48.776Z",
+        "endDate": null
+      }
+    ]
+  },
+  {
+    "processNumber": "?14",
+    "object": "Sistema de monitoramento - Sede Câmara",
+    "value": 40000,
+    "deadline": "2025-11-30",
+    "priority": "Média",
+    "type": "Serviço",
+    "modality": "A definir",
+    "fase": "Planejamento",
+    "description": "???",
+    "contractDate": "",
+    "purchasedValue": "0.00",
+    "location": {
+      "sector": "Agente de Contratação",
+      "responsible": ""
+    },
+    "planId": "51",
+    "id": 1756921534621,
+    "attachments": [],
+    "creationDate": "2025-09-03T17:45:34.621Z",
+    "history": [
+      {
+        "fase": "Planejamento",
+        "startDate": "2025-09-03T17:45:34.621Z",
+        "endDate": null
+      }
+    ],
+    "locationHistory": [
+      {
+        "sector": "Agente de Contratação",
+        "responsible": "",
+        "startDate": "2025-09-03T17:45:34.621Z",
+        "endDate": null
+      }
+    ]
+  }
+]
 }
